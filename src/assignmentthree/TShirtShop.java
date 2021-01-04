@@ -8,9 +8,9 @@ import payments.CashPayment;
 import payments.CreditDebitCard;
 import pseudofactory.TShirtPseudoFactory;
 
-public final class ShirtShop {
+public final class TShirtShop {
 
-    public ShirtShop() {
+    public TShirtShop() {
         TShirtPseudoFactory printer = new TShirtPseudoFactory();
         List<TShirt> allTheShirts = printer.printShirts();
         
