@@ -11,7 +11,7 @@ public class TShirtPseudoFactory {
 
     public List<TShirt> printShirts() {
         List<TShirt> tshirts = new ArrayList<>();
-        int count = 0;
+        int count = 1;
         for (Color color : Color.values()) {
             for (Size size : Size.values()) {
                 for (Fabric fabric : Fabric.values()) {
